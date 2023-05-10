@@ -34,7 +34,7 @@ with st.sidebar:
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
-                           'Parkinsons Prediction','Disease information'],
+                           'Parkinsons Prediction','About'],
                           icons=['activity','heart','person','fullscreen'],
                           default_index=0)
     
@@ -250,15 +250,17 @@ if (selected == "Parkinsons Prediction"):
         
     st.success(parkinsons_diagnosis)
 
+if (selected == "About"):
+    
+    # page title
+    st.title("About the project")
+    st.write('''Welcome to "Multiple Disease Prediction Using Machine Learning"! Our platform is designed to help you predict the likelihood of various diseases based on your symptoms.
+
+With the increasing number of diseases and complex symptoms, it can be challenging to identify the correct illness accurately. However, our platform uses machine learning algorithms to analyze your symptoms and provide an accurate prediction of the diseases you might be suffering from.
+
+We have incorporated a wide range of diseases into our platform, including diabetes, heart disease, breast cancer, and Parkinson's disease. Our team, consisting of Suraj Chaudhary 11909171 and Bharath Reddy 11909164, has extensively researched and identified the most common symptoms of these diseases and created a reliable model to predict the likelihood of each one.''')
 
 st.sidebar.title("Disease Information")
-
-# Breast Cancer
-st.sidebar.subheader("Breast Cancer")
-breast_cancer_info = """
-Breast cancer is a type of cancer that develops in the breast tissue. It is the most common cancer among women worldwide. The risk factors for breast cancer include age, family history, certain gene mutations, and exposure to estrogen. Symptoms of breast cancer may include a lump in the breast, changes in breast shape, and nipple discharge. Early detection is important for successful treatment. Mammography and breast self-exams can help with early detection. Treatment for breast cancer may include surgery, radiation therapy, chemotherapy, and hormone therapy.
-"""
-st.sidebar.markdown(breast_cancer_info)
 
 # Parkinson's Disease
 st.sidebar.subheader("Parkinson's Disease")
@@ -273,6 +275,13 @@ heart_disease_info = """
 Heart disease is a term used to describe a range of conditions that affect the heart. These conditions include coronary artery disease, heart failure, and arrhythmias. The risk factors for heart disease include age, family history, high blood pressure, high cholesterol, smoking, and diabetes. Symptoms of heart disease may include chest pain, shortness of breath, and fatigue. Treatment for heart disease may include medications, surgery, and lifestyle modifications.
 """
 st.sidebar.markdown(heart_disease_info)
+
+# Breast Cancer
+st.sidebar.subheader("Breast Cancer")
+breast_cancer_info = """
+Breast cancer is a type of cancer that develops in the breast tissue. It is the most common cancer among women worldwide. The risk factors for breast cancer include age, family history, certain gene mutations, and exposure to estrogen. Symptoms of breast cancer may include a lump in the breast, changes in breast shape, and nipple discharge. Early detection is important for successful treatment. Mammography and breast self-exams can help with early detection. Treatment for breast cancer may include surgery, radiation therapy, chemotherapy, and hormone therapy.
+"""
+st.sidebar.markdown(breast_cancer_info)
 
 # Diabetes
 st.sidebar.subheader("Diabetes")
