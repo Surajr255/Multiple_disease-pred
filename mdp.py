@@ -9,6 +9,8 @@ Original file is located at
 
 # -*- coding: utf-8 -*-
 
+pip install altair==4.1.0
+
 
 import pickle
 import streamlit as st
