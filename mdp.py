@@ -361,9 +361,9 @@ if (selected == "Breast cancer prediction"):
         Breast_cancer_prediction = breast_cancer_model.predict([[mean_radius,mean_texture, mean_perimeter, mean_area, mean_smoothness, mean_compactness, mean_concavity,mean_concave_points,mean_symmetry,mean_fractal_dimension,radius_error,texture_error,perimeter_error,area_error,smoothness_error,compactness_error,concavity_error,concave_points_error,symmetry_error,fractal_dimension_error,worst_radius,worst_texture,worst_perimeter,worst_area,worst_smoothness,worst_compactness,worst_concavity,worst_concave_points,worst_symmetry,worst_fractal_dimension ]])                          
         
         if (Breast_cancer_prediction[0] == 1):
-          Breast_cancer_diagnosis= "The person has Parkinson's disease"
+          Breast_cancer_diagnosis= "The person has Breast cancer"
         else:
-          Breast_cancer_diagnosis= "The person does not have Parkinson's disease"
+          Breast_cancer_diagnosis= "The person does not have breast cancer"
         
     st.success(Breast_cancer_diagnosis)
     
