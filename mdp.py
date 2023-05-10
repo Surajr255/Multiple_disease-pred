@@ -256,9 +256,19 @@ if (selected == "Disease information"):
 
   # page title
     st.title('General information about featured diseases')
-    # Breast Cancer
-    st.sidebar.subheader("Breast Cancer")
-    st.sidebar.markdown("Breast cancer is a type of cancer that develops in the breast tissue. It is the most common cancer among women worldwide. The risk factors for breast cancer include age, family history, certain gene mutations, and exposure to estrogen. Symptoms of breast cancer may include a lump in the breast, changes in breast shape, and nipple discharge. Early detection is important for successful treatment. Mammography and breast self-exams can help with early detection. Treatment for breast cancer may include surgery, radiation therapy, chemotherapy, and hormone therapy.")
+    st.text('''Parkinson's Disease:
+Parkinson's disease is a neurodegenerative disorder that affects movement. It is caused by the death of dopamine-producing cells in the brain. Symptoms of Parkinson's disease may include tremors, stiffness, and difficulty with balance and coordination. The cause of Parkinson's disease is not fully understood, but genetic and environmental factors may play a role. There is no cure for Parkinson's disease, but medications and therapies can help manage symptoms.
+
+Heart Disease:
+Heart disease is a term used to describe a range of conditions that affect the heart. The most common type of heart disease is coronary artery disease, which is caused by a buildup of plaque in the arteries that supply blood to the heart. Risk factors for heart disease include high blood pressure, high cholesterol, smoking, diabetes, and obesity. Symptoms of heart disease may include chest pain, shortness of breath, and fatigue. Treatment for heart disease may include lifestyle changes, medications, and surgical procedures.
+
+Diabetes:
+Diabetes is a chronic condition that affects the way the body processes blood sugar. There are two main types of diabetes: type 1 diabetes, which is an autoimmune disorder that affects the body's ability to produce insulin, and type 2 diabetes, which is caused by a combination of genetic and lifestyle factors. Symptoms of diabetes may include increased thirst, frequent urination, and blurred vision. Treatment for diabetes may include medications, lifestyle changes, and insulin therapy. Complications of diabetes may include heart disease, kidney disease, and nerve damage. It is important for people with diabetes to manage their blood sugar levels to prevent these complications.''')
+
+
+
+
+
 
 
 
