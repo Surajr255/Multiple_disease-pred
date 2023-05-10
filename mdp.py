@@ -255,7 +255,7 @@ if (selected == "Parkinsons Prediction"):
 
 
 # Breast Cancer Prediction
-if (selected == "Breast Cancer Prediction"):
+if (selected == "Breast cancer prediction"):
 
   # page title
     st.title('Breast Cancer Prediction using machine learning')
