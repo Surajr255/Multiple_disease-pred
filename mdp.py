@@ -256,7 +256,7 @@ if (selected == "Disease information"):
 
   # page title
     st.title('General information about featured diseases')
-    st.text('''Parkinson's Disease:
+    st.text_area('''Parkinson's Disease:
 Parkinson's disease is a neurodegenerative disorder that affects movement. It is caused by the death of dopamine-producing cells in the brain. Symptoms of Parkinson's disease may include tremors, stiffness, and difficulty with balance and coordination. The cause of Parkinson's disease is not fully understood, but genetic and environmental factors may play a role. There is no cure for Parkinson's disease, but medications and therapies can help manage symptoms.
 
 Heart Disease:
