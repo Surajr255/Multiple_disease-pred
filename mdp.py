@@ -251,7 +251,7 @@ if (selected == "Parkinsons Prediction"):
     st.success(parkinsons_diagnosis)
 
 
-# Breast Cancer Prediction
+# Disease information
 if (selected == "Disease information"):
 
   # page title
