@@ -264,7 +264,7 @@ if (selected == "Breast cancer prediction"):
     col1, col2, col3,col4,col5 = st.columns(5)
 
     with col1:
-        mean_radius= st.text_input('Mean radius)')
+        mean_radius= st.text_input('mean radius')
         
     with col2:
         mean_texture = st.text_input('mean texture')
