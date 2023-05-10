@@ -32,7 +32,7 @@ with st.sidebar:
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
-                           'Parkinsons Prediction','Breast Cancer Prediction'],
+                           'Parkinsons Prediction','Disease information'],
                           icons=['graph-up','heart','person','fullscreen'],
                           default_index=0)
     
@@ -251,9 +251,9 @@ if (selected == "Parkinsons Prediction"):
 
 
 # Breast Cancer Prediction
-if (selected == "Breast Cancer Prediction"):
+if (selected == "Disease information"):
 
   # page title
-    st.title('Breast Cancer Prediction using machine learning')
+    st.title('General information about the diseases')
                  
 
