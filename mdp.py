@@ -376,7 +376,7 @@ if (selected == "About"):
 
 With the increasing number of diseases and complex symptoms, it can be challenging to identify the correct illness accurately. However, this platform uses machine learning algorithms to analyze your symptoms and provide an accurate prediction of the diseases you might be suffering from.
 
-I have incorporated a wide range of diseases into our platform, including diabetes, heart disease, breast cancer, and Parkinson's disease. I have extensively researched and identified the most common symptoms of these diseases and created a reliable model to predict the likelihood of each one. - Suraj Chaudhary (11909171) ''')
+I have incorporated a wide range of diseases here, including diabetes, heart disease, breast cancer, and Parkinson's disease. I have extensively researched and identified the most common symptoms of these diseases and created a reliable model to predict the likelihood of each one. - Suraj Chaudhary (11909171) ''')
 
 st.sidebar.title("Disease Information")
 
